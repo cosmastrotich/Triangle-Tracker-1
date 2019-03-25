@@ -1,0 +1,46 @@
+.head
+{
+    text-align: center;
+    color: rgb(3, 5, 114);
+    font-style: oblique;
+    font-size: 29px;
+    text-shadow: rgb(224, 39, 26) 2px 2px;
+}
+.tri
+{
+font-style: italic ;
+color: rgb(232, 247, 21);
+}
+.gif {
+padding-right: 200px;
+border-radius: 100px 100px 100px 100px;
+}
+.box {
+align-self: center;
+display:block;
+max-width: 1000px;
+max-height: 1500px;
+margin: 0 auto 1em;
+
+}
+.container{
+    padding:10%;
+    margin: 10px;
+    background-color:rgb(96, 209, 153);
+    border-radius: 20px 20px 20px 20px;
+}
+
+body
+{
+    background-image: url(../wallpaper.jpg);
+    font-size: 20px;
+
+}
+input {
+    border-radius: 300px;
+    color: rgb(24, 10, 4);  
+    block-size: 50px;
+    font-size: 30px;
+    text-align: center;    
+}
+ 
