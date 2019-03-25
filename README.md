@@ -20,6 +20,8 @@ Triangle Tracker
 *HTML
 *CSS
 *JAVASCRIPT
+## Link to github-pages
+nivlapeter.github.io/Triangle-Tracker
 ## Support and contact details
 {For any queries get through to me by me email address at nivlapeter@gmail.com}
 ### License
