@@ -21,16 +21,6 @@ Triangle Tracker
 |Triangle with no equal sides | a!=b && b!=c && a!=c| Scalene triangle      | 
 
 
-
- writing of the html code to displayed by browser. Did this first since its easy and fast.<br/>
- #### Inputs: value1, value2, value3
- #### output: Category of triangle
- wrote css code for styling my html code written earlier<br/>
- wrote my javascript code the last since it was complicated and time consuming. Had to break it down to functions and then
- using if else statements to around the program which in return works perfectly.<br/>
- #### inputs: value1, value2, value3
- #### output: if triangle is either equilateral, isosceles, scalene or not triangle
-
 ## Known Bugs
 {no bugs experienced}
 
