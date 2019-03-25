@@ -16,11 +16,8 @@ Triangle Tracker
 |Behaviour                    |  Input              | Output                |
 |----------------------------:|:-------------------:|:----------------------|
 |It's not a triangle          |a+b<c                | Not a triangle      
-
-|Triangle with equal sides    |a===b===c            |   Equilateral triangle|                           
-
+|Triangle with equal sides    |a==b==c              |   Equilateral triangle|                           
 |Triangle with two equal sides| a==b || a==c || b==c| Isoseles triangle     |                         
-
 |Triangle with no equal sides | a!=b && b!=c && a!=c| Scalene triangle      | 
 
 
