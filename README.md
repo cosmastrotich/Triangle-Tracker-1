@@ -9,12 +9,11 @@ Triangle Tracker
 *github account so as to clone it to you repo
 
 ## breakdown of project
-|Behaviour                    |  Input              | Output                |
-|----------------------------:|:-------------------:|:----------------------|
-|It's not a triangle          |a+b<c                | Not a triangle
-|Triangle with equal sides    |a==b==c              |   Equilateral triangle|
-|Triangle with two equal sides| a==b OR a==c OR b==c| Isoseles triangle     |
-|Triangle with no equal sides | a!=b && b!=c && a!=c| Scalene triangle      |
+|Behaviour                    |  Input                                      | Output                |
+|----------------------------:|:-------------------------------------------:|:----------------------|
+|Triangle with equal sides    |side1==side2==side3                          | Equilateral triangle  |
+|Triangle with two equal sides| side1==side2 OR side1==side3 OR side2==side3| Isoseles triangle     |
+|Triangle with no equal sides | side1!=side2 && side2!=side3 && side1!=side3| Scalene triangle      |
 
 ## Languages used
 *HTML
