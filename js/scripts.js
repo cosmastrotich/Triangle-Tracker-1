@@ -3,18 +3,22 @@
     var side2=parseFloat(document.getElementById("side2").value);
     var side3=parseFloat(document.getElementById("side3").value);
     
-    if(side1===side2 && side2===side3 && side1===side3){
-        alert ("Equilateral Triangle");
+   if(isNaN(side1,side2,side2)===true){
+        output.innerHTML=("Null")
+    }
+    else if (side1===side2 && side2===side3 && side1===side3){
+        output.innerHTML=("Equilateral Triangle");
     }
     else if(side1===side2||side2===side3||side1===side3){
-        alert ("Isoseles Triangle");
+        output.innerHTML=("Isoseles Triangle");
     }
     else if(side1!=side2 && side2!=side3 && side1!=side3){
-        alert ("Scalene Triangle");
+        output.innerHTML=("Scalene Triangle");
     }
     else{
-        alert("Not a triangle"); 
+        output.innerHTML=("Not a triangle"); 
     }
+   
     
 }
 function Refresh() {
