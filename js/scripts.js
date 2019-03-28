@@ -17,3 +17,6 @@
     }
     
 }
+function Refresh() {
+    location.reload();
+}
